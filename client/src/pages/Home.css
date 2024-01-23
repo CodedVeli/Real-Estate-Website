@@ -10,3 +10,155 @@
   background-position: center;
   background-size: cover;
 }
+
+h1 {
+  margin: 1rem auto 1rem;
+}
+
+.product--image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 320px;
+  margin: auto 1rem;
+  padding: 15px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: blue;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 15px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.prop {
+  text-align: center;
+  font-family: arial;
+  margin-top: -10px;
+}
+
+.cards-body {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: -450px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.cards {
+  color: white;
+  background-color: blue;
+  text-align: center;
+  padding: 70px;
+}
+.container1 {
+  margin-top: -100px;
+}
+.image1 .image5 {
+  margin-top: 100px;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+}
+.image1 .help {
+  color: blue;
+  position: absolute;
+  margin-top: -550px;
+  text-align: center;
+}
+.image1 h1 {
+  margin-left: 400px;
+  font-size: 50px;
+}
+.container2 {
+  display: flex;
+  margin-top: -10px;
+  background: #e7e6e1;
+  padding: 90px;
+  justify-content: space-between;
+}
+.text1 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.text1 button {
+  background-color: rgb(14, 14, 219);
+  padding: 15px;
+  border: none;
+  color: white;
+  margin-top: 20px;
+}
+
+.icon {
+  display: flex;
+}
+.icons {
+  padding: 30px;
+  font-size: 30px;
+}
+.letter {
+  display: flex;
+}
+.letter1 {
+  background-color: blue;
+  color: white;
+  width: 650px;
+  padding: 80px;
+}
+.letter1 h1 {
+  font-size: 40px;
+}
+.letter1 p {
+  font-size: 20px;
+}
+.letter1 input {
+  width: 100%;
+  margin-top: 30px;
+  border: none;
+  padding: 10px;
+  border-top: transparent;
+  background: transparent;
+  border-bottom: 2px solid white;
+}
+input[type="text"]::placeholder {
+  font-size: 20px;
+  margin-top: 10px;
+  color: white;
+}
+.letter1 button {
+  background-color: rgba(0, 132, 255, 0.726);
+  color: white;
+  padding: 15px;
+  border: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 10px;
+}
+.newi .im {
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  width: 650px;
+}

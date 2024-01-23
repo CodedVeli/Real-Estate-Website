@@ -10,7 +10,7 @@ nav {
   display: flex;
   align-items: center;
 }
-img {
+.logo img {
   width: 100px;
   height: 100px;
 }
@@ -25,7 +25,7 @@ img {
   text-decoration: none;
 }
 .login {
-  margin-left: 280px;
+  margin-left: 200px;
 }
 .login a {
   font-size: 20px;
@@ -34,14 +34,14 @@ img {
   padding-left: 20px;
 }
 .signup {
-  background-color: orangered;
+  background-color: blue;
   color: #fff;
   border-radius: 10px;
   text-decoration: none;
 }
 .log-in {
   margin-left: 20px;
-  background-color: orangered;
+  background-color: blue;
   color: #fff;
   border-radius: 10px;
   text-decoration: none;
