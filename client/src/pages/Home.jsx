@@ -1,11 +1,15 @@
-import React from "react";
-import photo1 from "../assets/pic1.jpg";
+
+import SwipeCarousel from "../framer/Slider";
 import "./Home.css";
+import SearchBar from "../components/SearchBar";
+import HouseListing from "../components/HouseListing";
 
 function Home() {
   return (
     <div className="header">
-      <img src={photo1} alt="house" />
+      <SwipeCarousel />
+      <SearchBar/>
+      <HouseListing />
     </div>
   );
 }
