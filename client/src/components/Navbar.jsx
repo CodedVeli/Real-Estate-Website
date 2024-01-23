@@ -17,13 +17,13 @@ function Navbar() {
           <Link to="/about">About</Link>
           <Link to="/property">Property</Link>
           <Link to="/contact">Contact</Link>
-        </div>
+          </div>
 
         <div className="login">
-          <Link className="signup" to="/">
+          <Link className="signup" to="/register">
             Sign Up
           </Link>
-          <Link className="log-in" to="/">
+          <Link className="log-in" to="/login">
             Log In
           </Link>
         </div>
