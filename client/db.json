@@ -1,0 +1,513 @@
+{
+  "houses": [{
+    "id": 1,
+    "name": "Kuphal, Zemlak and Osinski",
+    "image": [
+      "http://dummyimage.com/152x100.png/dddddd/000000",
+      "http://dummyimage.com/101x100.png/5fa2dd/ffffff",
+      "http://dummyimage.com/161x100.png/cc0000/ffffff"
+    ],
+    "location": "Kairouan",
+    "price": 88,
+    "geolocation": {
+      "lat": 35.6759137,
+      "lng": 10.0919243
+    },
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "added": "9/18/2023"
+  }, {
+    "id": 2,
+    "name": "Kessler Inc",
+    "image": [
+      "http://dummyimage.com/186x100.png/5fa2dd/ffffff",
+      "http://dummyimage.com/149x100.png/dddddd/000000",
+      "http://dummyimage.com/169x100.png/5fa2dd/ffffff"
+    ],
+    "location": "Jandira",
+    "price": 32,
+    "geolocation": {
+      "lat": -23.5307464,
+      "lng": -46.8991995
+    },
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "added": "12/4/2023"
+  }, {
+    "id": 3,
+    "name": "Hilll-Keeling",
+    "image": [
+      "http://dummyimage.com/225x100.png/dddddd/000000",
+      "http://dummyimage.com/241x100.png/ff4444/ffffff",
+      "http://dummyimage.com/190x100.png/cc0000/ffffff"
+    ],
+    "location": "Gobernador Costa",
+    "price": 68,
+    "geolocation": {
+      "lat": -34.6503449,
+      "lng": -58.5581402
+    },
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "added": "4/11/2023"
+  }, {
+    "id": 4,
+    "name": "Kreiger-Prohaska",
+    "image": [
+      "http://dummyimage.com/225x100.png/cc0000/ffffff",
+      "http://dummyimage.com/154x100.png/dddddd/000000",
+      "http://dummyimage.com/202x100.png/ff4444/ffffff"
+    ],
+    "location": "Boca do Acre",
+    "price": 98,
+    "geolocation": {
+      "lat": -8.6931631,
+      "lng": -67.952363
+    },
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "added": "10/26/2023"
+  }, {
+    "id": 5,
+    "name": "Ritchie-Rice",
+    "image": [
+      "http://dummyimage.com/130x100.png/dddddd/000000",
+      "http://dummyimage.com/187x100.png/5fa2dd/ffffff",
+      "http://dummyimage.com/128x100.png/dddddd/000000"
+    ],
+    "location": "Jalatrang",
+    "price": 8,
+    "geolocation": {
+      "lat": -7.2467407,
+      "lng": 108.3474974
+    },
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "added": "6/23/2023"
+  }, {
+    "id": 6,
+    "name": "Stehr, Morar and Muller",
+    "image": [
+      "http://dummyimage.com/152x100.png/cc0000/ffffff",
+      "http://dummyimage.com/193x100.png/ff4444/ffffff",
+      "http://dummyimage.com/245x100.png/dddddd/000000"
+    ],
+    "location": "Mlaka pri Kranju",
+    "price": 61,
+    "geolocation": {
+      "lat": 46.2840425,
+      "lng": 14.349659
+    },
+    "bedrooms": 6,
+    "bathrooms": 6,
+    "added": "2/1/2023"
+  }, {
+    "id": 7,
+    "name": "Goodwin Group",
+    "image": [
+      "http://dummyimage.com/113x100.png/5fa2dd/ffffff",
+      "http://dummyimage.com/139x100.png/5fa2dd/ffffff",
+      "http://dummyimage.com/194x100.png/cc0000/ffffff"
+    ],
+    "location": "Rossosh’",
+    "price": 23,
+    "geolocation": {
+      "lat": 50.1987725,
+      "lng": 39.5632497
+    },
+    "bedrooms": 7,
+    "bathrooms": 7,
+    "added": "11/29/2023"
+  }, {
+    "id": 8,
+    "name": "Gibson-Tremblay",
+    "image": [
+      "http://dummyimage.com/135x100.png/5fa2dd/ffffff",
+      "http://dummyimage.com/203x100.png/dddddd/000000",
+      "http://dummyimage.com/193x100.png/dddddd/000000"
+    ],
+    "location": "San Nicolas",
+    "price": 65,
+    "geolocation": {
+      "lat": 13.9300945,
+      "lng": 120.9522977
+    },
+    "bedrooms": 8,
+    "bathrooms": 8,
+    "added": "6/16/2023"
+  }, {
+    "id": 9,
+    "name": "Von Inc",
+    "image": [
+      "http://dummyimage.com/133x100.png/dddddd/000000",
+      "http://dummyimage.com/141x100.png/ff4444/ffffff",
+      "http://dummyimage.com/107x100.png/cc0000/ffffff"
+    ],
+    "location": "Wutumeiren",
+    "price": 19,
+    "geolocation": {
+      "lat": 36.909074,
+      "lng": 93.163273
+    },
+    "bedrooms": 9,
+    "bathrooms": 9,
+    "added": "11/8/2023"
+  }, {
+    "id": 10,
+    "name": "Romaguera-Fritsch",
+    "image": [
+      "http://dummyimage.com/125x100.png/dddddd/000000",
+      "http://dummyimage.com/189x100.png/5fa2dd/ffffff",
+      "http://dummyimage.com/197x100.png/5fa2dd/ffffff"
+    ],
+    "location": "Matlang",
+    "price": 37,
+    "geolocation": {
+      "lat": 10.890811,
+      "lng": 124.457075
+    },
+    "bedrooms": 10,
+    "bathrooms": 10,
+    "added": "8/9/2023"
+  }, {
+    "id": 11,
+    "name": "Von, Bernhard and Boyer",
+    "image": [
+      "http://dummyimage.com/133x100.png/cc0000/ffffff",
+      "http://dummyimage.com/108x100.png/ff4444/ffffff",
+      "http://dummyimage.com/168x100.png/dddddd/000000"
+    ],
+    "location": "Ciudian",
+    "price": 16,
+    "geolocation": {
+      "lat": -7.4619612,
+      "lng": 107.8968943
+    },
+    "bedrooms": 11,
+    "bathrooms": 11,
+    "added": "4/19/2023"
+  }, {
+    "id": 12,
+    "name": "Carter-Morar",
+    "image": [
+      "http://dummyimage.com/195x100.png/5fa2dd/ffffff",
+      "http://dummyimage.com/148x100.png/ff4444/ffffff",
+      "http://dummyimage.com/189x100.png/5fa2dd/ffffff"
+    ],
+    "location": "Marki",
+    "price": 52,
+    "geolocation": {
+      "lat": 52.0267944,
+      "lng": 20.9513034
+    },
+    "bedrooms": 12,
+    "bathrooms": 12,
+    "added": "1/15/2024"
+  }, {
+    "id": 13,
+    "name": "Hamill LLC",
+    "image": [
+      "http://dummyimage.com/184x100.png/cc0000/ffffff",
+      "http://dummyimage.com/158x100.png/ff4444/ffffff",
+      "http://dummyimage.com/146x100.png/cc0000/ffffff"
+    ],
+    "location": "Gulonggang",
+    "price": 76,
+    "geolocation": {
+      "lat": 26.444341,
+      "lng": 115.699778
+    },
+    "bedrooms": 13,
+    "bathrooms": 13,
+    "added": "11/26/2023"
+  }, {
+    "id": 14,
+    "name": "Quitzon Inc",
+    "image": [
+      "http://dummyimage.com/152x100.png/dddddd/000000",
+      "http://dummyimage.com/223x100.png/5fa2dd/ffffff",
+      "http://dummyimage.com/242x100.png/ff4444/ffffff"
+    ],
+    "location": "Stockholm",
+    "price": 70,
+    "geolocation": {
+      "lat": 59.3433282,
+      "lng": 18.0638221
+    },
+    "bedrooms": 14,
+    "bathrooms": 14,
+    "added": "2/2/2023"
+  }, {
+    "id": 15,
+    "name": "Block, Rodriguez and Bahringer",
+    "image": [
+      "http://dummyimage.com/247x100.png/5fa2dd/ffffff",
+      "http://dummyimage.com/172x100.png/dddddd/000000",
+      "http://dummyimage.com/230x100.png/5fa2dd/ffffff"
+    ],
+    "location": "Guadalupe Victoria",
+    "price": 16,
+    "geolocation": {
+      "lat": 20.5359964,
+      "lng": -103.4325178
+    },
+    "bedrooms": 15,
+    "bathrooms": 15,
+    "added": "7/1/2023"
+  }, {
+    "id": 16,
+    "name": "Hills and Sons",
+    "image": [
+      "http://dummyimage.com/245x100.png/ff4444/ffffff",
+      "http://dummyimage.com/236x100.png/5fa2dd/ffffff",
+      "http://dummyimage.com/149x100.png/5fa2dd/ffffff"
+    ],
+    "location": "Pampas Chico",
+    "price": 44,
+    "geolocation": {
+      "lat": -10.116667,
+      "lng": -77.4
+    },
+    "bedrooms": 16,
+    "bathrooms": 16,
+    "added": "11/23/2023"
+  }, {
+    "id": 17,
+    "name": "Kozey Inc",
+    "image": [
+      "http://dummyimage.com/167x100.png/ff4444/ffffff",
+      "http://dummyimage.com/240x100.png/dddddd/000000",
+      "http://dummyimage.com/165x100.png/cc0000/ffffff"
+    ],
+    "location": "Fenoarivo Be",
+    "price": 79,
+    "geolocation": {
+      "lat": -17.3256545,
+      "lng": 49.36706
+    },
+    "bedrooms": 17,
+    "bathrooms": 17,
+    "added": "6/28/2023"
+  }, {
+    "id": 18,
+    "name": "Kreiger-Hermann",
+    "image": [
+      "http://dummyimage.com/222x100.png/dddddd/000000",
+      "http://dummyimage.com/227x100.png/5fa2dd/ffffff",
+      "http://dummyimage.com/191x100.png/cc0000/ffffff"
+    ],
+    "location": "Al Farwānīyah",
+    "price": 80,
+    "geolocation": {
+      "lat": 29.273357,
+      "lng": 47.9400154
+    },
+    "bedrooms": 18,
+    "bathrooms": 18,
+    "added": "4/11/2023"
+  }, {
+    "id": 19,
+    "name": "O'Kon-O'Connell",
+    "image": [
+      "http://dummyimage.com/129x100.png/dddddd/000000",
+      "http://dummyimage.com/145x100.png/cc0000/ffffff",
+      "http://dummyimage.com/147x100.png/cc0000/ffffff"
+    ],
+    "location": "Daping",
+    "price": 36,
+    "geolocation": {
+      "lat": 24.094765,
+      "lng": 116.00509
+    },
+    "bedrooms": 19,
+    "bathrooms": 19,
+    "added": "10/11/2023"
+  }, {
+    "id": 20,
+    "name": "Tromp-Hauck",
+    "image": [
+      "http://dummyimage.com/177x100.png/dddddd/000000",
+      "http://dummyimage.com/201x100.png/5fa2dd/ffffff",
+      "http://dummyimage.com/235x100.png/dddddd/000000"
+    ],
+    "location": "Loufan",
+    "price": 65,
+    "geolocation": {
+      "lat": 38.067932,
+      "lng": 111.797083
+    },
+    "bedrooms": 20,
+    "bathrooms": 20,
+    "added": "2/14/2023"
+  }, {
+    "id": 21,
+    "name": "Rutherford Group",
+    "image": [
+      "http://dummyimage.com/176x100.png/5fa2dd/ffffff",
+      "http://dummyimage.com/135x100.png/cc0000/ffffff",
+      "http://dummyimage.com/214x100.png/dddddd/000000"
+    ],
+    "location": "Olho Marinho",
+    "price": 18,
+    "geolocation": {
+      "lat": 39.3253135,
+      "lng": -9.232542
+    },
+    "bedrooms": 21,
+    "bathrooms": 21,
+    "added": "10/23/2023"
+  }, {
+    "id": 22,
+    "name": "Lang-Quigley",
+    "image": [
+      "http://dummyimage.com/141x100.png/cc0000/ffffff",
+      "http://dummyimage.com/171x100.png/cc0000/ffffff",
+      "http://dummyimage.com/178x100.png/ff4444/ffffff"
+    ],
+    "location": "Bulan",
+    "price": 43,
+    "geolocation": {
+      "lat": 12.6703542,
+      "lng": 123.8732551
+    },
+    "bedrooms": 22,
+    "bathrooms": 22,
+    "added": "12/2/2023"
+  }, {
+    "id": 23,
+    "name": "Bergstrom-Gleichner",
+    "image": [
+      "http://dummyimage.com/135x100.png/cc0000/ffffff",
+      "http://dummyimage.com/167x100.png/ff4444/ffffff",
+      "http://dummyimage.com/124x100.png/cc0000/ffffff"
+    ],
+    "location": "Ridderkerk",
+    "price": 70,
+    "geolocation": {
+      "lat": 51.8530202,
+      "lng": 4.6175276
+    },
+    "bedrooms": 23,
+    "bathrooms": 23,
+    "added": "2/10/2023"
+  }, {
+    "id": 24,
+    "name": "Reinger-D'Amore",
+    "image": [
+      "http://dummyimage.com/117x100.png/dddddd/000000",
+      "http://dummyimage.com/201x100.png/dddddd/000000",
+      "http://dummyimage.com/154x100.png/cc0000/ffffff"
+    ],
+    "location": "Bojong",
+    "price": 16,
+    "geolocation": {
+      "lat": -6.9828037,
+      "lng": 109.5568089
+    },
+    "bedrooms": 24,
+    "bathrooms": 24,
+    "added": "11/8/2023"
+  }, {
+    "id": 25,
+    "name": "Senger, Jacobson and Bruen",
+    "image": [
+      "http://dummyimage.com/191x100.png/cc0000/ffffff",
+      "http://dummyimage.com/238x100.png/cc0000/ffffff",
+      "http://dummyimage.com/250x100.png/ff4444/ffffff"
+    ],
+    "location": "Koslan",
+    "price": 28,
+    "geolocation": {
+      "lat": 63.4529778,
+      "lng": 48.8833546
+    },
+    "bedrooms": 25,
+    "bathrooms": 25,
+    "added": "7/21/2023"
+  }, {
+    "id": 26,
+    "name": "Considine, Homenick and Hessel",
+    "image": [
+      "http://dummyimage.com/224x100.png/ff4444/ffffff",
+      "http://dummyimage.com/226x100.png/cc0000/ffffff",
+      "http://dummyimage.com/136x100.png/dddddd/000000"
+    ],
+    "location": "Anulid",
+    "price": 92,
+    "geolocation": {
+      "lat": 15.8278,
+      "lng": 120.4946766
+    },
+    "bedrooms": 26,
+    "bathrooms": 26,
+    "added": "2/27/2023"
+  }, {
+    "id": 27,
+    "name": "Zieme, Kautzer and Nienow",
+    "image": [
+      "http://dummyimage.com/171x100.png/5fa2dd/ffffff",
+      "http://dummyimage.com/192x100.png/5fa2dd/ffffff",
+      "http://dummyimage.com/231x100.png/5fa2dd/ffffff"
+    ],
+    "location": "Ingarö",
+    "price": 82,
+    "geolocation": {
+      "lat": 59.2889777,
+      "lng": 18.3689021
+    },
+    "bedrooms": 27,
+    "bathrooms": 27,
+    "added": "3/25/2023"
+  }, {
+    "id": 28,
+    "name": "Olson-Stoltenberg",
+    "image": [
+      "http://dummyimage.com/186x100.png/ff4444/ffffff",
+      "http://dummyimage.com/149x100.png/cc0000/ffffff",
+      "http://dummyimage.com/187x100.png/cc0000/ffffff"
+    ],
+    "location": "Xiugu",
+    "price": 18,
+    "geolocation": {
+      "lat": 25.318672,
+      "lng": 119.105528
+    },
+    "bedrooms": 28,
+    "bathrooms": 28,
+    "added": "2/22/2023"
+  }, {
+    "id": 29,
+    "name": "Wilkinson-Cole",
+    "image": [
+      "http://dummyimage.com/146x100.png/5fa2dd/ffffff",
+      "http://dummyimage.com/132x100.png/5fa2dd/ffffff",
+      "http://dummyimage.com/203x100.png/ff4444/ffffff"
+    ],
+    "location": "Ereira",
+    "price": 5,
+    "geolocation": {
+      "lat": 39.1762837,
+      "lng": -8.8661993
+    },
+    "bedrooms": 29,
+    "bathrooms": 29,
+    "added": "5/23/2023"
+  }, {
+    "id": 30,
+    "name": "Hagenes-Grant",
+    "image": [
+      "http://dummyimage.com/203x100.png/dddddd/000000",
+      "http://dummyimage.com/107x100.png/dddddd/000000",
+      "http://dummyimage.com/154x100.png/ff4444/ffffff"
+    ],
+    "location": "Sionogan",
+    "price": 73,
+    "geolocation": {
+      "lat": 6.00528,
+      "lng": 120.94861
+    },
+    "bedrooms": 30,
+    "bathrooms": 30,
+    "added": "12/6/2023"
+  }]
+}

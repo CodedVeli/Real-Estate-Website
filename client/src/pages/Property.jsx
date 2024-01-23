@@ -1,7 +1,9 @@
-import React from "react";
+
 
 function Property() {
-  return <div>Property</div>;
+  return (
+  <></>
+  )
 }
 
 export default Property;
