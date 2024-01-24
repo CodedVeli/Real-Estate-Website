@@ -1,10 +1,21 @@
+
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-function Navbar() {
+function Navbar({ onLogin, onLogout, user }) {
   const logoImage =
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgz3FRbAhG8UICdsOV2o2gF6FMYkab6K9ozw&usqp=CAU";
+
+  const handleLogout = () => {
+    fetch("/logout", {
+      method: "DELETE",
+    }).then((response) => {
+      if (response.ok) {
+        onLogout();
+      }
+    });
+  };
 
   return (
     <div>
@@ -20,12 +31,20 @@ function Navbar() {
         </div>
 
         <div className="login">
-          <Link className="signup" to="/">
-            Sign Up
-          </Link>
-          <Link className="log-in" to="/">
-            Log In
-          </Link>
+          {user ? (
+            <button className="logout" onClick={handleLogout}>
+              Logout
+            </button>
+          ) : (
+            <>
+              <Link className="signup" to="/">
+                Sign Up
+              </Link>
+              <Link className="log-in" to="/login">
+                Log In
+              </Link>
+            </>
+          )}
         </div>
       </nav>
     </div>
