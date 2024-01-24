@@ -12,7 +12,7 @@ function PropertyList( {listing, id}) {
               className="bg-white border-2 border-red-600/40 rounded-xl"
             >
               <img
-              // remove this after backend implementation
+              // remove  this after backend implementation
               className="w-[800px] rounded-t-xl"
                 src={listing.image[0]}
                 alt="house"
