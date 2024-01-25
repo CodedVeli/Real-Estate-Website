@@ -1,8 +1,6 @@
-#!/usr/bin/env python3
-
 from faker import Faker
 from random import randint
-from models import db, User, Property, Review
+from models import db, User, Property, Owner
 from app import app
 
 fake = Faker()
@@ -11,52 +9,49 @@ with app.app_context():
     print("Deleting all records...")
     User.query.delete()
     Property.query.delete()
-    Review.query.delete()
+    Owner.query.delete()
 
     print("Creating users...")
     users = []
     for i in range(30):
-        user = User(
+        user_instance = User(
             name=fake.name(),
             email=fake.email(),
             password=fake.password(),
         )
-        users.append(user)
+        users.append(user_instance)
 
     db.session.add_all(users)
+    db.session.commit()
+
+    print("Creating owners...")
+    owners = []
+    for i in range(30):
+        owner_instance = Owner(
+            name=fake.name(),
+            email=fake.email(),
+            password=fake.password(),
+        )
+        owners.append(owner_instance)
+
+    db.session.add_all(owners)
+    db.session.commit()
 
     print("Creating properties...")
     properties = []
     for i in range(30):
-        property = Property(
+        property_instance = Property(
             name=fake.word(),
-            type=fake.word(),
-            user_id=randint(1, 30),  # Assuming you have 30 users
+            user_id=owners[i].id,  
             bedrooms=randint(1, 5),
             bathrooms=randint(1, 3),
-            parking=fake.boolean(),
-            furnished=fake.boolean(),
-            offer=fake.boolean(),
             regular_price=randint(1000, 5000),
-            discounted_price=randint(800, 4500),
             location=fake.address(),
+            image=fake.word()
         )
-        properties.append(property)
+        properties.append(property_instance)
 
     db.session.add_all(properties)
-
-    print("Creating reviews...")
-    reviews = []
-    for i in range(30):
-        review = Review(
-            property_id=randint(1, 30),  # Assuming you have 30 properties
-            user_id=randint(1, 30),  # Assuming you have 30 users
-            rating=randint(1, 5),
-            comment=fake.text(),
-        )
-        reviews.append(review)
-
-    db.session.add_all(reviews)
-
     db.session.commit()
-    print("Complete.")
+
+print("Database seeding completed.")
