@@ -1,7 +1,7 @@
 from flask import Flask, make_response, jsonify, request, session
 from flask_migrate import Migrate
 from flask_restful import Api, Resource
-from models import db, User
+from models import db, User, Property
 
 app = Flask(__name__)
 
@@ -17,12 +17,27 @@ api = Api(app)
 
 class Login(Resource):
     def post(self):
-        user = User.query.filter(
-            User.username == request.get_json()['username']
-        ).first()
+        try:
+            data = request.get_json()
+            name = data.get('name')  
+            password = data.get('password')
 
-        session['user_id'] = user.id
-        return jsonify(user.to_dict())
+            user = User.query.filter(User.name == name).first()
+
+            if user and password:
+                session['user_id'] = user.id
+                return jsonify({
+                    "message": "Login successful",
+                    "user_id": user.id,
+                    "username": user.name
+                })
+            else:
+                return jsonify({"message": "Invalid name or password"}), 401
+        except Exception as e:
+            print(f"Error in Login: {e}")
+            return make_response(jsonify({"message": "Internal Server Error"}), 500)
+
+
     
 class CheckSession(Resource):
     def get(self):
